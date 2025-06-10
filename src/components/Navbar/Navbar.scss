@@ -1,0 +1,130 @@
+*, *::before, *::after {box-sizing: border-box;}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    .navbar-logo a {
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
+
+    .navbar-burger {
+        font-size: 1.5rem;
+        display: none; // Hide by default, will appear on mobile screen
+    }
+
+    .navbar-links {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+
+        a, .navbar-item {
+            flex: 1;
+            text-align: end;
+            min-width: 120px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+    .navbar-item {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .dropdown-toggle {
+            display: inline-flex;
+            align-items: center;
+            justify-content: flex-end;
+            width: 100%;
+            background: none;
+            border: none;
+            gap: 0.5rem;
+            cursor: pointer;
+        }
+
+        .dropdown-menu {
+            position: absolute;
+            list-style: none;
+            top: 40%;
+            width: 100%;
+
+            &.open {
+                max-height: 500px;
+            }
+
+            li {
+                padding: 0.5rem 1.5rem;
+            }
+        }
+    }
+
+}
+
+
+// Responsive
+@media (max-width: 1000px) {
+    nav{
+        flex-direction: column;
+
+        .navbar-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        .navbar-burger {
+            display: block;
+            margin-left: auto;
+            background: none;
+            border: none;
+        }
+
+        .navbar-links {
+            display: none;
+            flex-direction: column;
+            align-items: stretch;
+            width: 100%;
+            
+            &.active {
+                display: flex;
+            }
+
+            a, .navbar-item {
+            text-align: center;
+            width: 100%;
+            }
+
+            .navbar-item {
+                width: 100%;
+
+                .dropdown-toggle {
+                    justify-content:center;
+                    width: 100%;
+                }
+
+                .dropdown-menu {
+                    position: relative;
+                    padding: 0;
+                    width: fit-content;
+                    max-width: 100%;
+                    max-height: 0;
+                    transition: max-height 0.3s ease;
+                    overflow: hidden;
+
+                    &.open {
+                        max-height: 500px;
+                    }
+                }
+            }
+        }
+    }
+    
+}
