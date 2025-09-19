@@ -6,14 +6,16 @@ nav {
     left: 0;
     height: 100vh;
     width: 200px;
-    padding: 2rem;
+    padding: 2em;
+    margin-left: 4em;
+    margin-top: 2em;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 4rem;
 
     .navbar-logo a {
-        font-size: 1.5rem;
+        font-size: 1.5em;
         text-decoration: none;
     }
 
@@ -25,15 +27,15 @@ nav {
         cursor: pointer;
         position: fixed;
         z-index: 110;
-        top: 2rem;
-        right: 2rem;
+        top: 2em;
+        right: 2em;
     }
 
     .navbar-links {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        gap: 1.5rem;
+        gap: 1.5em;
 
         a{
             text-decoration: none;
@@ -56,7 +58,7 @@ nav {
             position: fixed;
             background-color: grey;
             height: 100vh;
-            padding: 6rem 2rem;
+            padding: 6em 2em;
             top: 0;
             right: 0;
             width: 80vw;
