@@ -1,6 +1,9 @@
+html {scrollbar-gutter: stable;}
+
 body{
     margin: 0;
 }
+
 
 .page-layout{
     display: flex;
@@ -11,6 +14,12 @@ main{
     margin-left: 200px;
     flex: 1;
     padding: 4em;
+}
+
+// About Page
+.essay-header{
+    display: flex;
+    align-items: center;
 }
 
 // Mobile screen version
