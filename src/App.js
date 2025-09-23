@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from './components/Navbar/Navbar'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 
 import About from './pages/About'
 import Digital from './pages/Digital'
@@ -9,25 +9,35 @@ import Painting from './pages/Painting'
 import Sculpture from './pages/Sculpture'
 import Sketchbook from './pages/Sketchbook'
 
+function Layout() {
+  const location = useLocation();
+  const pageClass = location.pathname === "/" ? "home " : location.pathname.replace("/", "");
+
+  return(
+    <div className={`page-layout ${pageClass}`}>
+      <Navbar />
+      <main>
+        <Routes>
+          <Route path="/" element={<Sculpture />} />
+          <Route path="/sculpture" element={<Sculpture />} />
+          <Route path="/painting" element={<Painting />} />
+          <Route path="/drawing" element={<Drawing />} />
+          <Route path="/digital" element={<Digital />} />
+          <Route path="/sketchbook" element={<Sketchbook />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </main>
+    </div>
+  )
+}
+
 
 function App() {
   return (
     <Router>
-      <div className="page-layout">
-        <Navbar />
-        <main>
-          <Routes>
-            <Route path="/about" element={<About />} />
-            <Route path="/digital" element={<Digital />} />
-            <Route path="/drawing" element={<Drawing />} />
-            <Route path="painting" element={<Painting />} />
-            <Route path="/sculpture" element={<Sculpture />} />
-            <Route path="/sketchbook" element={<Sketchbook />} />
-          </Routes>   
-        </main>     
-      </div>
+      <Layout />
     </Router>
-  );
+  )
 }
 
 export default App;

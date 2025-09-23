@@ -1,13 +1,29 @@
-html {scrollbar-gutter: stable;}
-
-body{
+html, body {
+    scrollbar-gutter: stable;
+    height: 100%;
     margin: 0;
+    padding: 0;
 }
-
 
 .page-layout{
     display: flex;
     min-height: 100vh;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    &.about {
+        background-image: url(../src/assets/images/background-about.webp);
+    }
+
+    &.sketchbook {
+        background-image: url(../src/assets/images/background-sketch.webp);
+    }
+
+    &.sculpture, &.painting, &.drawing, &.digital{
+        background-image: url('../src/assets/images/background-gallery.webp');
+    }
 }
 
 main{

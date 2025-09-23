@@ -1,5 +1,5 @@
 
-export const introText = `June Choi (b.2001) is a visual artist and a recent graduate from Rhode Island School of Design.
+export const introText = `June Choi (b. 2001) is a visual artist and a recent graduate from Rhode Island School of Design.
 They predominantly work in painting, drawing, and sculpture, oftentimes thinking of ways to merge their applications into one. From
 an immigrant household in the temperate suburbs of Maryland, they developed an affinity for the landscape as an image that holds command
 over our ideas of personhood, origins, and material reality. Depictions of enclosed spaces and open skies come together to create
