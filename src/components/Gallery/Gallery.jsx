@@ -36,8 +36,8 @@ const Gallery = ({images}) => {
   return (
     <>
       <div className="gallery">
-          <ResponsiveMasonry columnsCountBreakPoints={{350: 1, 768: 2, 1200: 3 }} >
-            <Masonry>
+          <ResponsiveMasonry columnsCountBreakPoints={{350: 1, 768: 2}} >
+            <Masonry gutter='16px'>
               {images.map((image,index) => {
                 return(
                   <div className="gallery-item" key={index}>
@@ -45,8 +45,8 @@ const Gallery = ({images}) => {
                       src={image.src}
                       alt={image.alt}
                       onClick={() =>{
-                        setCurrentIndex(index);
-                        setLightboxOpen(true);
+                          setCurrentIndex(index);
+                          setLightboxOpen(true);
                       }}
                     />
                   </div>

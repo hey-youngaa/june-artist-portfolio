@@ -8,10 +8,11 @@ import Drawing from './pages/Drawing'
 import Painting from './pages/Painting'
 import Sculpture from './pages/Sculpture'
 import Sketchbook from './pages/Sketchbook'
+import SeriesDetails from "./components/SeriesDetails/SeriesDetails";
 
 function Layout() {
   const location = useLocation();
-  const pageClass = location.pathname === "/" ? "home " : location.pathname.replace("/", "");
+  const pageClass = location.pathname === "/" ? "home" : location.pathname.replace("/", "");
 
   return(
     <div className={`page-layout ${pageClass}`}>
@@ -25,6 +26,8 @@ function Layout() {
           <Route path="/digital" element={<Digital />} />
           <Route path="/sketchbook" element={<Sketchbook />} />
           <Route path="/about" element={<About />} />
+
+          <Route path="/:category/series/:seriesId" element={<SeriesDetails />} />
         </Routes>
       </main>
     </div>

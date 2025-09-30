@@ -23,30 +23,6 @@ import port from '../assets/images/sculpture-port-at-night-2022.webp'
 
 export const sculptureImages = [
     {
-        src: wayside,
-        alt: "",
-        title: "Wayside Re-turns (The donkey's path)",
-        dimension: '22.5" x 17.5" x 9"',
-        material: "Acrylic, glitter, charcoal, gesso, roap, figurine on cardboard, found wood, OSB",
-        year: "2024"
-    },
-    {
-        src: waysideBack,
-        alt: "",
-        title: "Wayside Re-turns (The donkey's path) - Back View",
-        dimension: '22.5" x 17.5" x 9"',
-        material: "Acrylic, glitter, charcoal, gesso, roap, figurine on cardboard, found wood, OSB",
-        year: "2024"
-    },
-    {
-        src: waysideDetail,
-        alt: "",
-        title: "Wayside Re-turns (The donkey's path) - Detail View",
-        dimension: '22.5" x 17.5" x 9"',
-        material: "Acrylic, glitter, charcoal, gesso, roap, figurine on cardboard, found wood, OSB",
-        year: "2024"
-    },
-    {
         src: untitled,
         alt: "Untitled woodwork sculptural piece",
         title: "Untitled",
@@ -183,4 +159,48 @@ export const sculptureImages = [
         year: "2022"
     }
 
+]
+
+export const sculptureSeries = [
+    {
+        category: "sculpture",
+        id: "wayside-returns-series",
+        cover: wayside,
+        title: "Wayside Re-turns (The donkey's path)",
+        dimension: '22.5" x 17.5" x 9"',
+        material: "Acrylic, glitter, charcoal, gesso, rope, figurine on cardboard, found wood, OSB",
+        year: "2024",
+        description: `Wayside Re-turns is an exploration of architectural forms in collage and collapse": their complacencies,
+        social-bindings, and emotional effect to the human eye. Its sense of direction is sprawling, desolate, and still. Despite this,
+        our present day may very well reflect the philosophy of purpose, time, and progree shared by the Donkey Ride, an icon commonly
+        found in classical Chinese landscape painting, whose journey is guaranteed and destiantion forthcoming. The path winding into
+        obscurity, the future unclear and the mountain fading out of sight. Ahead is an obsolete stage with yet a playfully autonomous
+        donkey, and perhaps us as its un(fore)seen rider.`,
+        images: [
+            {
+                src: wayside,
+                alt: "",
+                title: "Wayside Re-turns (The donkey's path)",
+                dimension: '22.5" x 17.5" x 9"',
+                material: "Acrylic, glitter, charcoal, gesso, rope, figurine on cardboard, found wood, OSB",
+                year: "2024",
+            },
+            {
+                src: waysideBack,
+                alt: "",
+                title: "Wayside Re-turns (The donkey's path)",
+                dimension: '22.5" x 17.5" x 9"',
+                material: "Acrylic, glitter, charcoal, gesso, rope, figurine on cardboard, found wood, OSB",
+                year: "2024",
+            },
+            {
+                src: waysideDetail,
+                alt: "",
+                title: "Wayside Re-turns (The donkey's path)",
+                dimension: '22.5" x 17.5" x 9"',
+                material: "Acrylic, glitter, charcoal, gesso, rope, figurine on cardboard, found wood, OSB",
+                year: "2024",
+            }                        
+        ]
+    }
 ]

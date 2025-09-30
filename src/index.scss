@@ -21,7 +21,7 @@ html, body {
         background-image: url(../src/assets/images/background-sketch.webp);
     }
 
-    &.sculpture, &.painting, &.drawing, &.digital{
+    &.home,  &.sculpture, &.painting, &.drawing, &.digital{
         background-image: url('../src/assets/images/background-gallery.webp');
     }
 }

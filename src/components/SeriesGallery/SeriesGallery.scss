@@ -1,0 +1,13 @@
+.series-gallery{
+    display: flex;
+    flex-direction: column;
+
+    .series-item{
+        width: 100%;
+
+        img {
+            width: 100%;
+            display: block;
+        }
+    }
+}

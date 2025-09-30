@@ -69,3 +69,9 @@
 
 .lightbox-prev{left: 10%;}
 .lightbox-next{right: 10%;}
+
+// Mobile version
+@media (max-width:460px){
+    .lightbox-prev {left: 12px;}
+    .lightbox-next {right: 12px}
+}
