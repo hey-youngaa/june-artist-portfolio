@@ -7,8 +7,13 @@ import './Navbar.scss';
 const Navbar = () => {
     const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-    // Toggle
+    // Toggle mobile menu
     const toggleMobileMenu = () => setMobileMenuOpen(prev => !prev);
+
+    // Close mobile menu when a navbar-link is clicked on
+    const handleLinkClick = () => setMobileMenuOpen(false);
+
+
 
   return (
     <nav>
@@ -19,19 +24,20 @@ const Navbar = () => {
 
             {/* Hamburger Button */}
              <button className='navbar-burger' aria-label='toggle menu' aria-expanded={isMobileMenuOpen} onClick={toggleMobileMenu}>
-                {isMobileMenuOpen ? <FiX/> : <SlMenu/>}
+                {isMobileMenuOpen ? <FiX size={32}/> : <SlMenu size={32}/>}
             </button>            
         </div>
 
 
         {/* Show or hide nav links based on mobile menu state */}
         <div className={`navbar-links ${isMobileMenuOpen ? 'active' : ''}`}>
-            <Link to='/sculpture'>sculpture</Link>
-            <Link to='/painting'>painting</Link>
-            <Link to='/drawing'>drawing</Link>
-            <Link to='/digital'>digital</Link>
-            <Link to='/sketchbook'>sketchbook</Link>
-            <Link to='/about'>about</Link>
+
+            <Link to='/sculpture'onClick={handleLinkClick}>sculpture</Link>
+            <Link to='/painting' onClick={handleLinkClick}>painting</Link>
+            <Link to='/drawing' onClick={handleLinkClick}>drawing</Link>
+            <Link to='/digital' onClick={handleLinkClick}>digital</Link>
+            <Link to='/sketchbook' onClick={handleLinkClick}>sketchbook</Link>
+            <Link to='/about' onClick={handleLinkClick}>about</Link>
         </div>
     </nav>
   )
