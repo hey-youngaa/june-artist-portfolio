@@ -12,7 +12,7 @@ import SeriesDetails from "./components/SeriesDetails/SeriesDetails";
 
 function Layout() {
   const location = useLocation();
-  const pageClass = location.pathname === "/" ? "home" : location.pathname.replace("/", "");
+  const pageClass = location.pathname === "/" ? "home" : location.pathname.split("/")[1];
 
   return(
     <div className={`page-layout ${pageClass}`}>

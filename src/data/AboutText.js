@@ -40,18 +40,18 @@ export const essayContent = [
     },
     {
         type: "paragraph",
-        text: `According to Worringer, the instinct for "thing-it-self" is most powerful; the yearning for abstraction comes from man's
-        anxieties of the chaos that surrounds him, which brings him to believe that "wrest[ing] objects of the external world out of its
-        natural context, out of the unending flux of being, to purify it of all its dependence upon life" will thereby bring him relief.
-        A form with "no smells, no noises, no color; no changing from one state to another and the uncertainty that comes with it". I 
-        don't find this understanding to be as useful in the context cesspool we live in today. Inanimate aesthetic (love) as a form of 
-        self-activation may cost us our humanity, but a socially-contingent livelihood as we know it is no huamnity at all"! (Who cares
-        for the unsalvageable?) The marginalized suffer in hypervisibility and yet the persuasian of an unseen, unalivable state of being 
-        is at the heart of objectification - this contradiction has led us to the subject/object conundrum, ornamentalism has bloomed in 
-        its wake, and the object is now our flesh.`,
+        text: `According to Worringer, the instinct for "thing in itself" is most powerful; the yearning for abstraction comes from man's
+        anxieties of the chaos that surrounds him, which brings him to believe that to "wrest the object of the external world out of its
+        natural context" and shed it of all semblances of meaning, will thereby bring him relief. A form with "no smells, no noises, no
+        color; no changing from one state to another and the uncertainty that comes with it." I don't find this understanding to be as
+        useful in the context cesspool we live in today. Inanimate aesthetic (love) as a form of self-activation may cost us our humanity,
+        but a socially-contingent livelihood as we know it is no huamnity at all"! (Who cares for the unsalvageable?) The marginalized
+        suffer in hypervisibility and yet the persuasian of an unseen, unalivable state of being is at the heart of objectification - this
+        contradiction has led us to the subject/object conundrum, ornamentalism has bloomed in its wake, and the object is now our flesh.`,
         references: [
-            {index: 73, ref: 2},
-            {index: 401, ref: 3}
+            {index: 75, ref: 2},
+            {index: 285, ref: 3},
+            {index: 490, ref: 4}
         ]
     },
     {
@@ -63,10 +63,10 @@ export const essayContent = [
         and stranger" than we think, and hence never pure. I wonder if the answer lies in not fully knowing ourselves — nomadic and forever
         flexing instead.`,
         references: [
-            {index: 111, ref: 4},
-            {index:436, ref: 5},
-            {index:574, ref: 6},
-            {index:680, ref: 7}
+            {index: 111, ref: 5},
+            {index:436, ref: 6},
+            {index:574, ref: 7},
+            {index:680, ref: 8}
         ]
     },
     {
@@ -74,18 +74,19 @@ export const essayContent = [
         text: `Trans-fixation disturbs the pure and assemblage is an ode to brokeness. Death is the dissolution of the boundaries that define
         existence but life remains through its multitudes. I'm changing like the seasons — watch! I'll even cut off my finger. Let me break down
         and apart. Let me break down and apart.`,
-        references: [{index: 253, ref: 8}]
+        references: [{index: 253, ref: 9}]
     },
     {
         type: "paragraph",
         text: `This is not a feeling. This can be, I think, a conversation.`,
-        references: [{index: 60, ref: 9}]
+        references: [{index: 60, ref: 10}]
     }
 ]
 
-export const references = [
+export const footnotes = [
     'Cripple and the starfish, line 2',
     `Worringer, 18`,
+    `Worringer, x`,
     `Batchelor, 19`,
     `Batchelor remarks, "for [him], the rainbow spreads its colour evenly at both edges but has a kink in the middle, where yellow meets green...where colour has no name" (93)`,
     `In Ornamentalism, Cheng draws upon Tony Morrison's Beloved to consider how black flesh and yellow ornament converge in racialized objectivity: "Sethe-half woman, half ornament

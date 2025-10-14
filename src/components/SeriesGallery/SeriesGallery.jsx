@@ -20,6 +20,7 @@ const SeriesGallery = ({series}) => {
                             src={item.cover}
                             alt={item.alt}
                         />
+                        <h2> {item.title}</h2>
                     </div>
                 )
             })}

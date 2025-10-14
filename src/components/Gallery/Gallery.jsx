@@ -1,6 +1,7 @@
 import React, {useState, useEffect, useCallback} from 'react'
 import Masonry, {ResponsiveMasonry} from 'react-responsive-masonry';
-import { TfiClose, TfiAngleLeft, TfiAngleRight} from 'react-icons/tfi';
+import {TfiAngleLeft, TfiAngleRight} from 'react-icons/tfi';
+import { FiX } from "react-icons/fi";
 
 import './Gallery.scss'
 
@@ -8,11 +9,12 @@ const Gallery = ({images}) => {
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
 
+  const length = images.length;
 
   const closeLightbox = () => setLightboxOpen(false);
 
-  const showPrev = () => setCurrentIndex((prev) => (prev === images.length - 1 ? 0 : prev - 1));
-  const showNext = () => setCurrentIndex((prev) => (prev === images.length - 1 ? 0 : prev + 1));
+  const showPrev = () => setCurrentIndex((prev) => (prev === length - 1 ? 0 : prev - 1));
+  const showNext = () => setCurrentIndex((prev) => (prev === length - 1 ? 0 : prev + 1));
 
   const handleKeyDown = useCallback(
     (e) => {
@@ -36,8 +38,8 @@ const Gallery = ({images}) => {
   return (
     <>
       <div className="gallery">
-          <ResponsiveMasonry columnsCountBreakPoints={{350: 1, 768: 2}} >
-            <Masonry gutter='16px'>
+        <ResponsiveMasonry columnsCountBreakPoints={{350: 1, 768: 2}}>
+            <Masonry gap='16px' >
               {images.map((image,index) => {
                 return(
                   <div className="gallery-item" key={index}>
@@ -59,12 +61,13 @@ const Gallery = ({images}) => {
       {/* Lightbox */}
       {lightboxOpen && (
         <div className='lightbox'>
-          <button className='lightbox-close' onClick={closeLightbox}><TfiClose size={32} /></button>
-          <button className='lightbox-prev' onClick={showPrev}><TfiAngleLeft size={32} /></button>
+          <button className='lightbox-close' onClick={closeLightbox}><FiX size={32} /></button>
 
           {/* Image details include title, dimension, material and year if present */}
           <div className="lightbox-content">
-            <img src={images[currentIndex].src} alt={images[currentIndex].alt} />
+            <div className="lightbox-image">
+              <img src={images[currentIndex].src} alt={images[currentIndex].alt} />
+            </div>
 
             <div className="lightbox-info">
               {images[currentIndex].title && (
@@ -85,8 +88,12 @@ const Gallery = ({images}) => {
 
             </div>
           </div>
-          
-          <button className='lightbox-next' onClick={showNext}><TfiAngleRight size={32} /></button>
+
+          {/* Keyboard accessible navigation through gallery */}
+          <div className="lightbox-controls">
+            <button className='lightbox-prev' onClick={showPrev}><TfiAngleLeft size={32} /></button>
+            <button className='lightbox-next' onClick={showNext}><TfiAngleRight size={32} /></button>            
+          </div>
         </div>
       )}
     </>

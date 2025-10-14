@@ -1,5 +1,20 @@
-.series-info{
-    .dimension {font-style: italic;}
+@import '../../assets//styles/variables';
 
-    
+.series-detail {
+
+    .series-info{
+        background-color: $color-background;
+        padding: $space-1 $space-2;
+        line-height: $line-height-normal;
+        margin-bottom: $space-4;
+
+        h1, .dimension, .material, .year {margin-bottom: $space-1 !important;}
+
+        .dimension {font-style: italic;}
+    }
+
+    .back-link{
+        color:$color-text-light;
+        text-decoration: none;
+    }
 }

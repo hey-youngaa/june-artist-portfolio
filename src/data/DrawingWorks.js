@@ -89,7 +89,7 @@ export const drawingSeries = [
         title: "Ground(water)",
         dimension: '8" x 11"',
         material: "Soft pastel and oil paint on arches oil paper",
-        year: "2024",
+        year: "2023",
         description: `Ground(water) is a series of soft pastel on oil paint monotypes dedicated to the tough and tender
         terrain of the Hawaiian coastline. Inspired by ahupu'a networks of fresh and brackish ponds, traditional rock-walls by
         the shoreline, and other features that curate accessible water, the drawings seek to define resistance in nature as invasive

@@ -1,0 +1,28 @@
+@import '../styles/variables';
+
+.about-page{
+    .intro {
+        background-color: $color-background;
+        padding: 1em 2em;
+        line-height: $line-height-normal;
+    }
+
+    .essay{
+        background-color: $color-background;
+        padding: 1em 2em;
+
+        .essay-header{
+        display: flex;
+        align-items: center;
+
+        h2 {font-weight: 500;}
+        }
+
+    .essay-content{
+        p , blockquote {
+            line-height: 1.6;
+        }
+    }
+
+}
+}

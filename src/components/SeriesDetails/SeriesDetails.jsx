@@ -19,10 +19,6 @@ const SeriesDetails = () => {
     const series = dataset.find((s) => s.id === seriesId)
   return (
     <div className="series-detail">
-      <Link to={`/${category}`} className='back-link'>
-        Back
-      </Link>
-
       <div className="series-info">
         <h1>{series.title}</h1>
 
@@ -44,6 +40,10 @@ const SeriesDetails = () => {
       </div>
 
       <Gallery images={series.images} />
+      
+      <Link to={`/${category}`} className='back-link'>
+        Back
+      </Link>
     </div>
   )
 }

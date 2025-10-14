@@ -1,4 +1,4 @@
-import man from '../assets/images/painting-man-2022.webp'
+import snakesHide from '../assets/images/painting-snakes-hide-2023.webp'
 import houseMisty from '../assets/images/painting-house-misty.-2022webp.webp'
 import daytimeVacancies from '../assets/images/painting-daytime-vacancies-2022.webp'
 import eyeStorm from '../assets/images/painting-eye-storm-2022.webp'
@@ -15,12 +15,12 @@ import rendezvous2 from '../assets/images/painting-rendezvous2-2020.webp'
 
 export const paintingImages = [
     {
-        src: man,
+        src: snakesHide,
         alt: "",
-        title: "Man",
+        title: "Where Old Snakes Hide",
         dimension: '30.5" x 30"',
         material: "Acrylic and pastel on wood",
-        year: "2022"
+        year: "2023"
     },   
     {
         src: houseMisty,
@@ -41,9 +41,9 @@ export const paintingImages = [
     {
         src: storySplinter,
         alt: "",
-        title: "Story of a splinter",
+        title: "Story of a Splinter",
         dimension: '18" x 24"',
-        material: "Oil paint on wood",
+        material: "Oil, ink, and charcoal on wood panel",
         year: "2022"
     },
     {

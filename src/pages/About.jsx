@@ -4,6 +4,8 @@ import { essayContent } from '../data/AboutText';
 import { footnotes } from '../data/AboutText';
 import { citations } from '../data/AboutText';
 
+import '../assets/styles/About.scss'
+
 const About = () => {
 
   return (
@@ -35,7 +37,16 @@ const About = () => {
               return <p key={index}>{parts}</p>;
             }
             if (item.type === "blockquote"){
-              return <blockquote key={index}>{item.text}</blockquote>;
+              return(
+                <blockquote key={index}>
+                  {item.text.split('\n').map((line, i, arr) => (
+                    <React.Fragment key={i}>
+                      {line.trim()}
+                      {i < arr.length - 1 && <br />}
+                    </React.Fragment>
+                  ))}
+                </blockquote>
+              )
             }
             return null;
           })}
