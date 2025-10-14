@@ -1,5 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import { HiMiniArrowSmallRight } from "react-icons/hi2";
 
 import './SeriesGallery.scss'
 
@@ -20,7 +21,7 @@ const SeriesGallery = ({series}) => {
                             src={item.cover}
                             alt={item.alt}
                         />
-                        <h2> {item.title}</h2>
+                        <h2 className='title-with-arrow'> {item.title} <HiMiniArrowSmallRight /></h2>
                     </div>
                 )
             })}

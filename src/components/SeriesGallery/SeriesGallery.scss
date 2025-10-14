@@ -13,10 +13,13 @@
             display: block;
         }
 
-        h2 {
+        .title-with-arrow {
             margin: $space-1 0 $space-4 0;
             color: white;
             font-weight: normal;
+            font-style: italic;
+            display: flex;
+            align-items: center;
         } 
     }
 }
