@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 import { SlMenu } from "react-icons/sl";
 import { FiX } from "react-icons/fi";
+import { IoIosMail } from "react-icons/io";
 import './Navbar.scss';
 
 const Navbar = () => {
@@ -38,6 +39,9 @@ const Navbar = () => {
             <Link to='/digital' onClick={handleLinkClick}>digital</Link>
             <Link to='/sketchbook' onClick={handleLinkClick}>sketchbook</Link>
             <Link to='/about' onClick={handleLinkClick}>about</Link>
+            <a href='mailto:ju.choi168@gmail.com' title='contact me via email'>
+                <IoIosMail size={24} />
+            </a>
         </div>
     </nav>
   )
