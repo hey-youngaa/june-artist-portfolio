@@ -7,11 +7,14 @@
     .gallery-item{
         margin: 0;
         padding: 0;
+        display: flex;
+        justify-content: center;
 
         img{
-            width: 100%;
+            width: 90%;
             display: block;
             cursor: pointer;
+            margin-bottom: $space-6;
         }
     }
 }
@@ -103,6 +106,15 @@
 
 // Mobile version
 @media (max-width:460px){
+    .gallery {
+        .gallery-item{
+            img{
+                width: 100%;
+                margin-bottom: 0;
+            }
+        }
+    }
+
     .lightbox-content{
         margin-top: $space-4;
     }

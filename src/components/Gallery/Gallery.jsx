@@ -39,13 +39,14 @@ const Gallery = ({images}) => {
     <>
       <div className="gallery">
         <ResponsiveMasonry columnsCountBreakPoints={{350: 1, 768: 2}}>
-            <Masonry gap='16px' >
+            <Masonry gap='24px' >
               {images.map((image,index) => {
                 return(
                   <div className="gallery-item" key={index}>
                     <img
                       src={image.src}
                       alt={image.alt}
+                      loading='lazy'
                       onClick={() =>{
                           setCurrentIndex(index);
                           setLightboxOpen(true);
