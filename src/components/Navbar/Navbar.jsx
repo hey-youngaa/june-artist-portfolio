@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { SlMenu } from "react-icons/sl";
 import { FiX } from "react-icons/fi";
 import { IoIosMail } from "react-icons/io";
@@ -20,7 +20,7 @@ const Navbar = () => {
     <nav>
         <div className="navbar-header">
             <div className="navbar-logo">
-                <Link to="/">JUNE</Link>
+                <NavLink to="/">JUNE</NavLink>
             </div>
 
             {/* Hamburger Button */}
@@ -33,12 +33,12 @@ const Navbar = () => {
         {/* Show or hide nav links based on mobile menu state */}
         <div className={`navbar-links ${isMobileMenuOpen ? 'active' : ''}`}>
 
-            <Link to='/sculpture'onClick={handleLinkClick}>sculpture</Link>
-            <Link to='/painting' onClick={handleLinkClick}>painting</Link>
-            <Link to='/drawing' onClick={handleLinkClick}>drawing</Link>
-            <Link to='/digital' onClick={handleLinkClick}>digital</Link>
-            <Link to='/sketchbook' onClick={handleLinkClick}>sketchbook</Link>
-            <Link to='/about' onClick={handleLinkClick}>about</Link>
+            <NavLink to='/sculpture' className={({ isActive }) => (isActive ? 'active-link' : '')} onClick={handleLinkClick}>sculpture</NavLink>
+            <NavLink to='/painting'className={({ isActive }) => (isActive ? 'active-link' : '')} onClick={handleLinkClick}>painting</NavLink>
+            <NavLink to='/drawing' className={({ isActive }) => (isActive ? 'active-link' : '')} onClick={handleLinkClick}>drawing</NavLink>
+            <NavLink to='/digital' className={({ isActive }) => (isActive ? 'active-link' : '')} onClick={handleLinkClick}>digital</NavLink>
+            <NavLink to='/sketchbook' className={({ isActive }) => (isActive ? 'active-link' : '')} onClick={handleLinkClick}>sketchbook</NavLink>
+            <NavLink to='/about' className={({ isActive }) => (isActive ? 'active-link' : '')} onClick={handleLinkClick}>about</NavLink>
             <a href='mailto:ju.choi168@gmail.com' title='contact me via email'>
                 <IoIosMail size={24} />
             </a>

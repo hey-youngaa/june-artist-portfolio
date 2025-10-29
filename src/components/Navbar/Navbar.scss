@@ -43,6 +43,11 @@ nav {
             color: $color-text-light;
             font-size: $font-size-lg;
         }
+        
+        .active-link {
+            text-decoration: underline;
+            text-underline-offset: $space-2;   
+        }
     }
 
 }
