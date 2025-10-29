@@ -18,24 +18,24 @@ const SeriesDetails = () => {
     const dataset = dataSource[category];
     const series = dataset.find((s) => s.id === seriesId)
   return (
-    <div className="series-detail">
+    <div className="series-content">
       <div className="series-info">
         <h1>{series.title}</h1>
 
         {series.dimension && (
-          <p className='dimension'>{series.dimension}</p>
+          <p className='series-detail dimension'>{series.dimension}</p>
         )}
 
         {series.material && (
-          <p className='material'>{series.material}</p>
+          <p className='series-detail material'>{series.material}</p>
         )}
 
         {series.year && (
-          <p className='year'>{series.year}</p>
+          <p className='series-detail year'>{series.year}</p>
         )}
 
         {series.description && (
-          <p>{series.description}</p>
+          <p className='series-detail description'>{series.description}</p>
         )}
       </div>
 

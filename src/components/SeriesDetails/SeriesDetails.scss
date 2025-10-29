@@ -1,16 +1,16 @@
 @import '../../assets//styles/variables';
 
-.series-detail {
+.series-content {
 
     .series-info{
         background-color: $color-background;
-        padding: $space-1 $space-2;
-        line-height: $line-height-normal;
-        margin-bottom: $space-4;
+        padding: $space-3 $space-4;
+        margin-bottom: $space-3;
 
-        h1, .dimension, .material, .year {margin-bottom: $space-1 !important;}
-
+        h1 {margin: 0 0 $space-1 0; font-weight: normal;}
+        p {margin: 0 0 $space-1 0;}
         .dimension {font-style: italic;}
+        .year {margin-bottom: $space-3;}
     }
 
     .back-link{
