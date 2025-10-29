@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.cc14b9b4.css",
-    "main.js": "/static/js/main.cebcd250.js",
+    "main.css": "/static/css/main.56abb1b8.css",
+    "main.js": "/static/js/main.7ecaea2e.js",
     "static/media/sculpture-reflexes2-2023.webp": "/static/media/sculpture-reflexes2-2023.7be66fc817714edf65fc.webp",
     "static/media/drawing-elephant-dreams-2021.webp": "/static/media/drawing-elephant-dreams-2021.75aae8441ae961272391.webp",
     "static/media/drawing-leftover-2020.webp": "/static/media/drawing-leftover-2020.9c06f8a3d5bed6aee87f.webp",
@@ -91,11 +91,11 @@
     "static/media/digital-tank-2-2022.webp": "/static/media/digital-tank-2-2022.1e4d55c2b4d86c02f866.webp",
     "static/media/sketchbook-21.webp": "/static/media/sketchbook-21.cdd7b222d6ffdad2bb76.webp",
     "index.html": "/index.html",
-    "main.cc14b9b4.css.map": "/static/css/main.cc14b9b4.css.map",
-    "main.cebcd250.js.map": "/static/js/main.cebcd250.js.map"
+    "main.56abb1b8.css.map": "/static/css/main.56abb1b8.css.map",
+    "main.7ecaea2e.js.map": "/static/js/main.7ecaea2e.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc14b9b4.css",
-    "static/js/main.cebcd250.js"
+    "static/css/main.56abb1b8.css",
+    "static/js/main.7ecaea2e.js"
   ]
 }
