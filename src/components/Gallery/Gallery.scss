@@ -78,17 +78,41 @@
     right: 4em;
     background: none;
     border: none;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    opacity: 0.85;
+
+    &:hover {
+        transform: scale(1.1);
+        opacity: 1;
+    }
 }
 
 .lightbox-controls {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 85%;
     margin-top: 1em;
+    transform: translateY(-50%);
+    pointer-events: none;
 
-    .lightbox-prev, .lightbox-next {
+    button {
         background: none;
         border: none;
+        cursor: pointer;
+        pointer-events: auto;
+        transition: transform 0.2s ease, opacity 0.2s ease;
+        opacity: 0.85;
+    }
+
+    button:hover {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+
+    button:active {
+        transform: scale(0.95);
+        opacity: 0.9;
     }
 }
 

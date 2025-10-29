@@ -47,6 +47,7 @@ const Gallery = ({images}) => {
                       src={image.src}
                       alt={image.alt}
                       loading='lazy'
+                      decoding='async'
                       onClick={() =>{
                           setCurrentIndex(index);
                           setLightboxOpen(true);
