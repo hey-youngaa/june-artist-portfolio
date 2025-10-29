@@ -35,8 +35,8 @@ export const essayContent = [
         text: `In a few short words I had laid out a sequence of to-dos in some dreamful recipe for success, happiness, peace. I dream
         of doing and I yearn to believe. How to make meaning in a world of singularity. How to signal in a sea of symbols. How we may
         move, pressed into the grooves. I've been collecting wood scraps for half a year now and routinely sort them into bins by potential
-        function (spine, joint, limb, bellybutton); imagining a self between bone, plastic, wood, and stone; singy thingy into little me, me, me...`,
-        references: [{index: 538, ref: 1}]
+        function (spine, joint, limb, bellybutton); imagining a self between bone, plastic, wood, and stone; stingy thingy into little me, me, me...`,
+        references: [{index: 539, ref: 1}]
     },
     {
         type: "paragraph",
@@ -45,7 +45,7 @@ export const essayContent = [
         natural context" and shed it of all semblances of meaning, will thereby bring him relief. A form with "no smells, no noises, no
         color; no changing from one state to another and the uncertainty that comes with it." I don't find this understanding to be as
         useful in the context cesspool we live in today. Inanimate aesthetic (love) as a form of self-activation may cost us our humanity,
-        but a socially-contingent livelihood as we know it is no huamnity at all"! (Who cares for the unsalvageable?) The marginalized
+        but a socially-contingent livelihood as we know it is no humanity at all! (Who cares for the unsalvageable?) The marginalized
         suffer in hypervisibility and yet the persuasian of an unseen, unalivable state of being is at the heart of objectification - this
         contradiction has led us to the subject/object conundrum, ornamentalism has bloomed in its wake, and the object is now our flesh.`,
         references: [
