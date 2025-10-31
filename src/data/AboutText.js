@@ -14,7 +14,7 @@ export const essayContent = [
         comforter. Sometimes I'd imagine myeslf thinning till as light as a sheet and then blowing up bubble-gum style. I despised
         holding so much air and more than anything I wanted to bear the world filtering through me instead. To open my chest and bid
         them all to flood in...the birds, parks, dumps, dams, cans, cars, worms...and afterwards, I don't know what would become of
-        me, except that what was left would get to revel in the sounds of a flatulent hollow. This is wishful thinking`,
+        me, except that what was left would get to revel in the sounds of a flatulent hollow. This is wishful thinking.git `,
         references: []
     },
     {
