@@ -10,17 +10,17 @@ existing like ghosts in plain sight.`
 export const essayContent = [
     {
         type: "paragraph",
-        text: `A miserable yawn stretches itself inside from corner to corner. I used to lie in bed to this feeling, limp like an old
-        comforter. Sometimes I'd imagine myeslf thinning till as light as a sheet and then blowing up bubble-gum style. I despised
+        text: `A miserable yawn stretches itself inside from corner to corner. I used to lie in bed to this feeling, limp like an
+        old comforter. Sometimes I’d imagine myself thinning till as light as a sheet and then blowing up bubble-gum style. I despised
         holding so much air and more than anything I wanted to bear the world filtering through me instead. To open my chest and bid
-        them all to flood in...the birds, parks, dumps, dams, cans, cars, worms...and afterwards, I don't know what would become of
-        me, except that what was left would get to revel in the sounds of a flatulent hollow. This is wishful thinking.git `,
+        them all to flood in… the birds, parks, dumps, dams, cans, cars, worms…and afterwards, I don’t know what would become of me,
+        except that what was left would get to revel in the sounds of a flatulent hollow. This is wishful thinking.`,
         references: []
     },
     {
         type: "paragraph",
-        text: `I am full of contradictions and one of them is that I struggle with spontaneity, A year ago, tired of this life
-        of pause, I wrote a note for myself — it reads:`,
+        text: `I am full of contradictions and one of them is that I struggle with spontaneity. A year ago, tired of this life of pause,
+        I wrote a note for myself — it reads:`,
         references: []
     },
     {
@@ -57,16 +57,16 @@ export const essayContent = [
     {
         type: "paragraph",
         text: `Color and texture are agents of reality that manage to escape language - and thereby definition - all the time. In doing so
-        they inhabit a sort of unreality, Its untenability alludes to a subjectivity that does not require a form at all and signals something
+        they inhabit a sort of unreality, In doing so their untenability alludes to a subjectivity that does not require a form at all and signals something
         grander and ever-omnipresent. "It [is miraculous]: a miracle is always a sudden transfomration of nature...it is less a thing than a 
         trace of movement." We must conjure sense from rejection, negative meaning, association folding into association — where we are "richer
         and stranger" than we think, and hence never pure. I wonder if the answer lies in not fully knowing ourselves — nomadic and forever
         flexing instead.`,
         references: [
             {index: 111, ref: 5},
-            {index:436, ref: 6},
-            {index:574, ref: 7},
-            {index:680, ref: 8}
+            {index:450, ref: 6},
+            {index:588, ref: 7},
+            {index:694, ref: 8}
         ]
     },
     {

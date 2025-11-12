@@ -27,18 +27,19 @@ const Slideshow = ({slides}) => {
   return (
     <div className="slideshow">
         <div className="slideshow-img-wrapper">
-            <img src={src} alt={alt}/>
+            <img src={src} alt={alt} loading='lazy' decoding='async'/>
         </div>
 
         <div className="slideshow-caption">
             <h2 className='title'>{title}</h2>
             <p className='year'>{year}</p>
-
-            <div className="slideshow-controls">
-              <button onClick={prevSlide}><TfiAngleLeft /></button>
-              <button onClick={nextSlide}><TfiAngleRight /></button>  
-            </div>
         </div>
+            
+        <div className="slideshow-controls">
+           <button onClick={prevSlide}><TfiAngleLeft /></button>
+           <button onClick={nextSlide}><TfiAngleRight /></button>  
+        </div>
+
     </div>
   )
 }

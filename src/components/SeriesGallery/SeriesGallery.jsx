@@ -20,6 +20,8 @@ const SeriesGallery = ({series}) => {
                         <img
                             src={item.cover}
                             alt={item.alt}
+                            loading='lazy'
+                            decoding='async'
                         />
                         <h2 className='title-with-arrow'> {item.title} <HiMiniArrowSmallRight /></h2>
                     </div>

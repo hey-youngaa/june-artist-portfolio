@@ -3,13 +3,13 @@
 .about-page{
     .intro {
         background-color: $color-background;
-        padding: 1em 2em;
+        padding: $space-3 $space-4;
         line-height: $line-height-normal;
     }
 
     .essay{
         background-color: $color-background;
-        padding: 1em 2em;
+        padding: $space-3 $space-4;
 
         .essay-header{
         display: flex;
@@ -20,7 +20,7 @@
 
     .essay-content{
         p , blockquote {
-            line-height: 1.6;
+            line-height: $line-height-normal;
         }
     }
 
