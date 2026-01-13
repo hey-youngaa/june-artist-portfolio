@@ -1,4 +1,8 @@
+import nightTulips from '../assets/images/painting-night-tulip-2025.webp'
+import prairie from '../assets/images/painting-prairie-2025.webp'
+
 import snakesHide from '../assets/images/painting-snakes-hide-2023.webp'
+
 import houseMisty from '../assets/images/painting-house-misty.-2022webp.webp'
 import daytimeVacancies from '../assets/images/painting-daytime-vacancies-2022.webp'
 import eyeStorm from '../assets/images/painting-eye-storm-2022.webp'
@@ -14,6 +18,22 @@ import rendezvous1 from '../assets/images/painting-rendezvous1-2020.webp'
 import rendezvous2 from '../assets/images/painting-rendezvous2-2020.webp'
 
 export const paintingImages = [
+    {
+        src: nightTulips,
+        alt: "",
+        title: "Night Tulips",
+        dimension: '19.5" x 15.5"',
+        material: "Acrylic, house paint, and pastel on wood",
+        year: "2025"
+    }, 
+    {
+        src: prairie,
+        alt: "",
+        title: "Prairie",
+        dimension: '20" x 15.5"',
+        material: "Acrylic, house paint, sand, glitter, and pencil on wood",
+        year: "2025"
+    }, 
     {
         src: snakesHide,
         alt: "",
