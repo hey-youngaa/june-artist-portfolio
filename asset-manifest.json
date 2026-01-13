@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.f8d2695a.css",
-    "main.js": "/static/js/main.b2e1af2a.js",
+    "main.js": "/static/js/main.1568eb92.js",
     "static/media/sculpture-reflexes2-2023.webp": "/static/media/sculpture-reflexes2-2023.7be66fc817714edf65fc.webp",
     "static/media/drawing-elephant-dreams-2021.webp": "/static/media/drawing-elephant-dreams-2021.75aae8441ae961272391.webp",
+    "static/media/painting-prairie-2025.webp": "/static/media/painting-prairie-2025.40d89e6cd4f97ce80f69.webp",
     "static/media/drawing-leftover-2020.webp": "/static/media/drawing-leftover-2020.9c06f8a3d5bed6aee87f.webp",
     "static/media/sculpture-peaking-dawn-2023.webp": "/static/media/sculpture-peaking-dawn-2023.b09e868400a691b78b47.webp",
     "static/media/digital-tank-3-2023.webp": "/static/media/digital-tank-3-2023.751da9dd82c06bae3052.webp",
@@ -13,6 +14,7 @@
     "static/media/drawing-planetary-suburb-2021.webp": "/static/media/drawing-planetary-suburb-2021.0900a79e9ef1030863c8.webp",
     "static/media/sculpture-driftwood1-2023.webp": "/static/media/sculpture-driftwood1-2023.cb6887926ee2c86bd74b.webp",
     "static/media/sculpture-kingdom-glass-2023.webp": "/static/media/sculpture-kingdom-glass-2023.b1655311c7b0322f4fea.webp",
+    "static/media/painting-night-tulip-2025.webp": "/static/media/painting-night-tulip-2025.3aabf0728356fab62915.webp",
     "static/media/drawing-gw9-2023.webp": "/static/media/drawing-gw9-2023.fc7a0df946fa45c03c0b.webp",
     "static/media/drawing-gw8-2023.webp": "/static/media/drawing-gw8-2023.667aad8c1ac9a24319e2.webp",
     "static/media/sketchbook-18.webp": "/static/media/sketchbook-18.b109c248131e33e028de.webp",
@@ -92,10 +94,10 @@
     "static/media/sketchbook-21.webp": "/static/media/sketchbook-21.cdd7b222d6ffdad2bb76.webp",
     "index.html": "/index.html",
     "main.f8d2695a.css.map": "/static/css/main.f8d2695a.css.map",
-    "main.b2e1af2a.js.map": "/static/js/main.b2e1af2a.js.map"
+    "main.1568eb92.js.map": "/static/js/main.1568eb92.js.map"
   },
   "entrypoints": [
     "static/css/main.f8d2695a.css",
-    "static/js/main.b2e1af2a.js"
+    "static/js/main.1568eb92.js"
   ]
 }
