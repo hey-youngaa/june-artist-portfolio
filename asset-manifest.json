@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f8d2695a.css",
-    "main.js": "/static/js/main.8c8ebeb3.js",
+    "main.js": "/static/js/main.b2e1af2a.js",
     "static/media/sculpture-reflexes2-2023.webp": "/static/media/sculpture-reflexes2-2023.7be66fc817714edf65fc.webp",
     "static/media/drawing-elephant-dreams-2021.webp": "/static/media/drawing-elephant-dreams-2021.75aae8441ae961272391.webp",
     "static/media/drawing-leftover-2020.webp": "/static/media/drawing-leftover-2020.9c06f8a3d5bed6aee87f.webp",
@@ -92,10 +92,10 @@
     "static/media/sketchbook-21.webp": "/static/media/sketchbook-21.cdd7b222d6ffdad2bb76.webp",
     "index.html": "/index.html",
     "main.f8d2695a.css.map": "/static/css/main.f8d2695a.css.map",
-    "main.8c8ebeb3.js.map": "/static/js/main.8c8ebeb3.js.map"
+    "main.b2e1af2a.js.map": "/static/js/main.b2e1af2a.js.map"
   },
   "entrypoints": [
     "static/css/main.f8d2695a.css",
-    "static/js/main.8c8ebeb3.js"
+    "static/js/main.b2e1af2a.js"
   ]
 }
