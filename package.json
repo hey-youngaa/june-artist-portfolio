@@ -1,7 +1,7 @@
 {
   "name": "june-artist-portfolio",
   "version": "0.1.0",
-  "homepage": "https://hey-youngaa.github.io/june-artist-portfolio",
+  "homepage": "https://hey-youngaa.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
